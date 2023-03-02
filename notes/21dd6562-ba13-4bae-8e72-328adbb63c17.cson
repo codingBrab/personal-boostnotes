@@ -1,0 +1,36 @@
+createdAt: "2021-09-16T16:48:28.412Z"
+updatedAt: "2021-09-16T16:48:28.412Z"
+type: "SNIPPET_NOTE"
+folder: "dcff5c474dc652dd4143"
+title: "Snippet note example"
+description: '''
+  Snippet note example
+  You can store a series of snippets as a single note, like Gist.
+'''
+snippets: [
+  {
+    name: "example.html"
+    mode: "html"
+    content: '''
+      <html>
+      <body>
+      <h1 id='hello'>Enjoy Boostnote!</h1>
+      </body>
+      </html>
+    '''
+    linesHighlighted: []
+  }
+  {
+    name: "example.js"
+    mode: "javascript"
+    content: '''
+      var boostnote = document.getElementById('hello').innerHTML
+      
+      console.log(boostnote)
+    '''
+    linesHighlighted: []
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,26 @@
+createdAt: "2023-02-10T04:42:53.181Z"
+updatedAt: "2023-02-10T04:49:24.544Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "Type Coercion"
+tags: []
+content: '''
+  # Type Coercion
+  Makes you wanna tear your hair out...
+  
+  The engine converts the type to make sense
+  
+  ```javascript
+  1 == '1'
+  // true
+  // engine decides you are trying 
+  // to compaare the same
+  
+  1 === '1'
+  // false
+  // stops coersion
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

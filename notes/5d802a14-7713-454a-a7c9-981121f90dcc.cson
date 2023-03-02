@@ -1,0 +1,14 @@
+createdAt: "2022-05-19T16:07:26.288Z"
+updatedAt: "2022-05-19T16:07:43.363Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Staging db issues"
+tags: []
+content: '''
+  # Staging db issues
+  ## Reset
+  sudo mysqld --user=root
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

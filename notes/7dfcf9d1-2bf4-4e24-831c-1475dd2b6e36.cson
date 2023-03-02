@@ -1,0 +1,35 @@
+createdAt: "2021-09-29T18:38:01.185Z"
+updatedAt: "2022-06-23T16:22:58.314Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Updating"
+tags: []
+content: '''
+  # Updating
+  Important* Update the shebang to /usr/local/bin/python3
+  ## dev
+  - ./stage-update.sh dev all
+  - ./update.sh dev all
+  ## ~~live - ARE YOU UPDATING LIVE?~~
+  - ~~./stage-update.sh live all~~
+  - ~~./update.sh live all~~
+  ## remove brb
+  - ./brb.sh dev off
+  ## purge cache
+  ./purge-cache.sh dev
+  ./purge-cache.sh live
+  ## Update client
+  
+  ### DEV
+  ./stage-update.sh dev home
+  ./update.sh dev home
+  ### Services
+  located on vm /home/josh
+  ./services.sh list
+  ./services.sh live || dev
+  ### permission
+  chmod 755 admin/brb.sh && chmod 755 admin/purge-cache.sh && chmod 755 admin/push-update.sh && chmod 755 admin/restart-servers.sh && chmod 755 admin/stage-update.sh && chmod 755 admin/update.sh && chmod 755 server_scripts/cloudflare/purgeCloudflareCache.py && chmod 755 server_scripts/cloudflare/purgeCloudflareCacheDev.py
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

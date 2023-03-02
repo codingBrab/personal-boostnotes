@@ -1,0 +1,36 @@
+createdAt: "2022-12-07T23:49:49.627Z"
+updatedAt: "2023-02-27T17:31:29.267Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Building Shell"
+tags: []
+content: '''
+  # Building Shell
+  
+  ## Params
+  
+  sudo ./build branch environment configuration
+  
+  ## dev
+  sudo ./build.sh develop dev
+  
+  ## staging
+  sudo ./build.sh develop staging
+  
+  ## live
+  sudo ./build.sh Production live
+  
+  ## Configurations
+  ### different branches
+  sudo ./build.sh Production dev
+  
+  ### Different configs
+  sudo ./build.sh develop dev staging
+  sudo ./build.sh develop staging staging
+  
+  #### Build with Items
+  sudo ./buildWithItems.sh develop dev staging
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

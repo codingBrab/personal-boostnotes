@@ -1,0 +1,60 @@
+createdAt: "2023-03-01T04:51:45.371Z"
+updatedAt: "2023-03-01T05:25:05.549Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "Higher Order Function HOF"
+tags: []
+content: '''
+  # Higher Order Function HOF 
+  - Function that can take a function as argument
+  - Function that can returns another function
+  
+  ## Make it dry
+  Can make things look more complicated
+  
+  ```js
+  
+  const giveAccessTo = (name) => 
+    `Access Grant to ${name}`
+  
+  const authenticate = verify => {
+    let array = [];
+    for (let i; i < verify; i++) {
+      array.push(i);
+    }
+    return true;
+  }
+  
+  //HOF allows for more reusablitity
+  
+  const letPerson = (person, fnc) => {
+    if (person.level === 'admin') {
+      fnc(50000)
+    } else if (person.level == 'user') {
+      fnc(10000)
+    }
+    return giveAccessTo(person.name)
+  }
+  
+  // func as param means that you can use a different callback function
+  letPerson({level: 'admin', name: 'david'}, authenticate)
+  
+  const multiplyBy = (num1) => (num2) => num1*num2
+  
+  multiplyBy(4)(6)
+  //24
+  // function passes first num1 in multiplyBy
+  const multiplyByTwo = multiplyBy(2)
+  const multiplyByFive = multiplyBy(5)
+  // pass second num2 in multiplyBy
+  multiplyByTwo(4)
+  // 8
+  multiplyByFive(5)
+  // 25
+  
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

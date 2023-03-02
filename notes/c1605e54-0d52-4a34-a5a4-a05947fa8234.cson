@@ -1,0 +1,19 @@
+createdAt: "2021-09-16T17:03:15.446Z"
+updatedAt: "2021-09-16T17:03:30.691Z"
+type: "SNIPPET_NOTE"
+folder: "42a41fd7d4cf9d13216b"
+title: "date_modified"
+tags: [
+  "mysql"
+]
+description: "date_modified"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: null
+    content: "date_modified TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,18 @@
+createdAt: "2021-11-09T21:55:44.000Z"
+updatedAt: "2021-11-09T21:57:08.300Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Update Version Change"
+tags: []
+content: '''
+  # Update Version Change
+  
+  ## // Internal version
+  
+  - game/server/bot.js
+  - game/src/client/gameApp.js
+  - game/src/server/connectionWorker.js
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

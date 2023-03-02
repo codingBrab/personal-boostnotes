@@ -1,0 +1,15 @@
+createdAt: "2022-04-21T23:28:24.862Z"
+updatedAt: "2022-04-21T23:28:48.921Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Certs"
+tags: []
+content: '''
+  # Certs
+  
+  ## Server
+  symlink: certs -> /etc/letsencrypt/live
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

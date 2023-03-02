@@ -1,0 +1,15 @@
+createdAt: "2021-10-18T19:06:48.704Z"
+updatedAt: "2021-10-18T19:07:27.873Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "GCLOUD"
+tags: []
+content: '''
+  ### GCLOUD  
+  
+  ## Set default project
+  gcloud config set project shellshockio-181719
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

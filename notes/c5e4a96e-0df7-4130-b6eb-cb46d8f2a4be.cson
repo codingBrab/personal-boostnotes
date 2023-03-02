@@ -1,0 +1,16 @@
+createdAt: "2021-12-08T19:44:12.402Z"
+updatedAt: "2021-12-08T19:50:19.433Z"
+type: "MARKDOWN_NOTE"
+folder: "f9030c51e3290ef1ee03"
+title: "IOS upload"
+tags: []
+content: '''
+  # IOS upload
+  
+  - Change version and build, in app and oneSignal
+  command + 1
+  - Build on dev sever
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

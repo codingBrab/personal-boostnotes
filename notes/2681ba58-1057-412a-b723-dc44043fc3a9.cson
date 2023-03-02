@@ -1,0 +1,28 @@
+createdAt: "2022-06-10T17:28:12.253Z"
+updatedAt: "2022-06-10T17:29:50.558Z"
+type: "MARKDOWN_NOTE"
+folder: "ef010e2935fd50ef6e93"
+title: "Emergency Procedures!"
+tags: []
+content: '''
+  # Emergency Procedures!
+  ## Symptom: Stuck on loading the menu
+  - This is probably because the account server crashed and it's best to just restart it and it'll set itself up.
+  - Go to vultr.com and find the server merczone-production-account, click on the three dots next to it and choose "Restart server". It takes a minute or two to get going again.
+  ## Symptom: Stuck on matchmaking
+  - This is probably because a gate server (or servers) are having issues. Find the gate server for the affected region (looks like merczone-production-gate-<region>) and restart it like in the case above. Also delete any existing servers in the affected region (these look like merczone-production-game-server-<region>-<id>).
+  ### Region naming:
+  - US-East => ewr
+  - US-West => lax
+  - Europe => fra
+  Asia => icn
+  ### Symptom: The page is completely unavailable
+  - The web server might be down. Restart merczone-production-web like in the first case.
+  ### Another option:
+  - Double-check the IPs on Cloudflare vs. Vultr and see that they are correct. If you change the IPs a restart of the updated server is needed.
+  ## The Nuclear Option:
+  If all else fails, a full re-deploy might fix things, but I don't think anyone other than Jure is currently set up to deploy. WAKE HIM UP SOMEHOW :)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

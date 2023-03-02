@@ -1,0 +1,16 @@
+createdAt: "2021-09-16T17:09:35.290Z"
+updatedAt: "2021-10-15T21:47:22.116Z"
+type: "MARKDOWN_NOTE"
+folder: "42a41fd7d4cf9d13216b"
+title: "Login and use"
+tags: []
+content: '''
+  # Login and use
+  
+  mysql -u username -p
+  show databases;
+  use dbname;
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

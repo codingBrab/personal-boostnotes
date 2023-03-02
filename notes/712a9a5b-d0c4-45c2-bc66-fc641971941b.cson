@@ -1,0 +1,57 @@
+createdAt: "2023-02-09T04:24:29.512Z"
+updatedAt: "2023-02-09T04:46:02.955Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "Pass by ref vs pass by value"
+tags: []
+content: '''
+  # Pass by ref vs pass by value
+  ## Pass by value
+  Copy the value and store somewhere else in the heap/memory
+  ``` javascript
+      var a = 5;
+      var b = a;
+  ```
+  
+  ## Pass by ref
+  Creates a ref. Sort of like an address.
+  Saves memormy by reference instead of multiples
+  ``` javascript
+  let obj1 = {name: 'Dave', password: '123'};
+  let obj2 = obj2;
+  obj2.password = 'easypeasy';
+  console.log(obj1.password);
+  console.log(obj2.password);
+  // = easypeasy
+  
+  ```
+  
+  ### create new array from array
+  
+  ``` javascript
+  var c = [1,2,3,4,5];
+  var d = [].concat(c)
+  d.push(123344); 
+  console.log(c);
+  // [1,2,3,4,5]
+  console.log(d);
+  // [1,2,3,4,5,123344]
+  ```
+  ### shallow clone new object
+  ``` javascript
+  let obj = {a: 'a', b: 'b', c: 'c'}
+  let clone Object.assign({}, obj);
+  
+  // or 
+  
+  let clone2 = {...obj}
+  ```
+  
+  ### Deep clone - instensive
+  ```javascript
+  let superClone = JSON.parce(JSON.stringify(obj));
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

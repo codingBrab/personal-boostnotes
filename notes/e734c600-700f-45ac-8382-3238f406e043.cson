@@ -1,0 +1,66 @@
+createdAt: "2023-02-07T05:41:07.582Z"
+updatedAt: "2023-02-07T05:59:48.349Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "Call, Bind, Apply"
+tags: []
+content: '''
+  # Call, Bind, Apply
+  
+  ## Call and Apply
+  - short hand for ()
+  - borrow from other methods
+  - appy uses array of params
+  
+  
+  <pre>
+    <code>
+    const wizard = {
+      name: 'Merlin',
+      health: 50,
+      heal(param1, param2) {
+        return this.health = param1 + param2;
+      }
+    };
+  
+    const archer = {
+      name: 'Robin Hood',
+      health: 30,
+    };
+  
+    wizard.heal.call(archer, 30, 50);
+  
+    console.log(archer);
+  
+    </code>
+  </pre>
+  
+  ## Bind
+  - returns new function
+  - allows storing for future function
+  
+  <pre> <code>
+  const wizard = {
+    name: 'Merlin',
+    health: 50,
+    heal(param1, param2) {
+      return this.health = param1 + param2;
+    }
+  };
+  
+  const archer = {
+    name: 'Robin Hood',
+    health: 30,
+  };
+  
+  const healArcher = wizard.heal.bind(archer, 30, 50);
+  
+  healArcher();
+  
+  console.log(archer);
+  
+  </code> </pre>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

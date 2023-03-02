@@ -1,0 +1,10 @@
+createdAt: "2021-09-16T17:02:23.539Z"
+updatedAt: "2021-09-16T17:03:12.215Z"
+type: "MARKDOWN_NOTE"
+folder: "42a41fd7d4cf9d13216b"
+title: "date_modified TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+tags: []
+content: "date_modified TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+linesHighlighted: []
+isStarred: false
+isTrashed: true

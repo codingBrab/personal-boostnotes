@@ -1,0 +1,22 @@
+createdAt: "2023-02-10T04:52:50.261Z"
+updatedAt: "2023-02-10T04:58:37.881Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "JTS: Dynamic vs Static Typing"
+tags: []
+content: '''
+  # JTS: Dynamic vs Static Typing
+  
+  ## Dynamic
+  ```javascript
+  var a = 100;
+  // dynamic no defined type
+  
+  int a;
+  a = 100
+  // statically bound to type
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

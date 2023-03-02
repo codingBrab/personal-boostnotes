@@ -1,0 +1,14 @@
+createdAt: "2022-05-04T17:19:30.399Z"
+updatedAt: "2022-05-04T17:20:01.343Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Borked Staging db"
+tags: []
+content: '''
+  # Borked Staging db
+  - var/run/mysqld
+  - sudo mysqld --user=root
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

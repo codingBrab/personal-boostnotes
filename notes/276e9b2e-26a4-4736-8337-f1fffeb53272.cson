@@ -1,0 +1,51 @@
+createdAt: "2023-03-02T04:37:25.212Z"
+updatedAt: "2023-03-02T05:15:33.956Z"
+type: "MARKDOWN_NOTE"
+folder: "24d1c23951d2843280d5"
+title: "Closures"
+tags: []
+content: '''
+  # Closures
+  
+  ## 2 main benifits
+  1. Memory efficient
+  2. Encapsulation
+  
+  ### Memory Efficient
+  
+  ```js
+  function heavyDuty(idx) {
+  console.log('created');
+    const bigArray = new Array(7000).fill();
+    return bigArray[idx];
+  }
+  
+  heavyDuty(688);
+  heavyDuty(688);
+  heavyDuty(688);
+  // Would create and delete the array over and over
+  
+  const getHeavyDuty = heavyDutyTwo();
+  const three = getHeavyDuty(3);
+  const sixThousand = getHeavyDuty(6888);
+  const six = getHeavyDuty(6);
+  const four = getHeavyDuty(4);
+  
+  console.log(three, sixThousand, six, four);
+  
+  function heavyDutyTwo () {
+  console.log('created just the once');
+     const bigArray = new Array(7000).fill('i');
+    return (idx) => {
+    console.log(bigArray[idx]);
+    return bigArray[idx];
+    }
+  }
+  
+  ```
+'''
+linesHighlighted: [
+  21
+]
+isStarred: false
+isTrashed: false

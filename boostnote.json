@@ -1,0 +1,50 @@
+{
+  "folders": [
+    {
+      "key": "dcff5c474dc652dd4143",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "42a41fd7d4cf9d13216b",
+      "color": "#FF8E00",
+      "name": "MYSQL"
+    },
+    {
+      "key": "a80892137a3b58666e4d",
+      "color": "#2BA5F7",
+      "name": "ShellShockers"
+    },
+    {
+      "key": "49108698d699e472321e",
+      "color": "#B013A4",
+      "name": "Nginx"
+    },
+    {
+      "key": "f9030c51e3290ef1ee03",
+      "color": "#30D5C8",
+      "name": "Shell iOS"
+    },
+    {
+      "key": "0c20a59c8e171a3fb7e3",
+      "color": "#3FD941",
+      "name": "AppStoreConnect"
+    },
+    {
+      "key": "ac58701b3f736acd0582",
+      "color": "#B013A4",
+      "name": "JWT"
+    },
+    {
+      "key": "ef010e2935fd50ef6e93",
+      "color": "#E8D252",
+      "name": "MercZone"
+    },
+    {
+      "key": "24d1c23951d2843280d5",
+      "color": "#B013A4",
+      "name": "Javascript"
+    }
+  ],
+  "version": "1.0"
+}

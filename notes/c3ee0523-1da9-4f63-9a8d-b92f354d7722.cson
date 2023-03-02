@@ -1,0 +1,37 @@
+createdAt: "2021-12-10T18:17:55.980Z"
+updatedAt: "2022-03-09T22:18:07.638Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Mobile update"
+tags: []
+content: '''
+  # Mobile update
+  
+  - tar -cf home-test.tar home
+  - gcloud compute scp home-test.tar home-test.tar mobile-live:./ --zone=us-central1-a
+  - tar -xf home-test.tar
+  
+  ## testing
+  - update severs.js for to show dev servers
+  
+  ## ports and testing
+  ScenceDelegate
+  ViewController
+  
+  :443 live https
+  :7888 dev
+  :7777 dave
+  
+  ## Local assets
+  ### inc_vueAppMobile.php
+  
+  ## Skus
+  add new skus to product_ids (inApp)
+  
+  ## mobilevip DNS
+  vultur ip: 45.76.23.133
+  mobile-live: 34.67.126.175
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

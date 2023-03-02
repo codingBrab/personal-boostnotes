@@ -1,0 +1,35 @@
+createdAt: "2022-12-08T00:57:06.684Z"
+updatedAt: "2023-02-03T19:02:56.412Z"
+type: "MARKDOWN_NOTE"
+folder: "a80892137a3b58666e4d"
+title: "Password Protect"
+tags: []
+content: '''
+  # Password Protect
+  
+  ## uncomment or comment
+  /etc/nginx/sites-available/
+  sudo vim shellshockers
+  
+  ## Uncomment/Comment out
+  auth_basic "Restricted";
+  auth_basic_user_file /shellshockers/.htaccess;
+  
+  sudo nginx -s reload
+  
+  ## Update user password
+  
+  - pwd /home/username/example.com
+  
+  - sudo htpasswd -c /home/username/example.com/.htpasswd user1
+  
+  - enter password twice
+  - sudo nginx -s reload
+  
+  ### example
+  sudo htpasswd -c /shellshockers/.htaccess eggs
+  pwd: thatwasntandy
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
